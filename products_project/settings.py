@@ -84,8 +84,12 @@ WSGI_APPLICATION = 'products_project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'phsjqhip',
+        'USER': 'phsjqhip',
+        'PASSWORD': 'vO51GRaBvjdwzdGi_mm9k4hHmAVx1nCf',
+        'HOST': 'suleiman.db.elephantsql.com',
+        'PORT': '5432',  # Adjust the port if necessary
     }
 }
 
